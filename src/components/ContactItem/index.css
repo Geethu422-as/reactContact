@@ -1,0 +1,59 @@
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.table-row:hover {
+  background: #f9f9f9;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.table-cell {
+  flex: 1;
+  font-size: 15px;
+  color: #333;
+}
+
+.name-column {
+  font-weight: 500;
+  color: #222;
+}
+
+.mobile-no-column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.mobile-no-value {
+  font-size: 15px;
+  font-weight: 500;
+  color: #444;
+}
+
+.favorite-icon-container {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  transition: transform 0.2s;
+}
+
+.favorite-icon-container:hover {
+  transform: scale(1.2);
+}
+
+.favorite-icon {
+  width: 22px;
+  height: 22px;
+}
+
+
